@@ -61,11 +61,7 @@ def cleanup_manim_temp_dir(directory: str) -> str:
 
 
 def main():
-    main()
+    mcp.run()
 
 if __name__ == "__main__":
     main()
-
-
-
-
