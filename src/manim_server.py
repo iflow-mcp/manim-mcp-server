@@ -60,8 +60,11 @@ def cleanup_manim_temp_dir(directory: str) -> str:
         return f"Failed to clean up directory: {directory}. Error: {str(e)}"
 
 
+def main():
+    main()
+
 if __name__ == "__main__":
-    mcp.run(transport="stdio")
+    main()
 
 
 
